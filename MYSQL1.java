@@ -1,7 +1,9 @@
 import java.sql.*;
 
 public class MYSQL1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {\
+        
+        
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection obj = DriverManager.getConnection("jdbc:mysql://localhost:3306/v2w", "root", "12345@ARUNasalam");
